@@ -18,6 +18,15 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ["Inter", "-apple-system", "Roboto", "Helvetica", "sans-serif"],
+      },
+      spacing: {
+        "spacing-xs": "8px",
+        "spacing-s": "24px",
+        "spacing-sm": "32px",
+        "spacing-m": "48px",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -62,6 +71,9 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        "color-border": "rgba(230, 230, 230, 1)",
+        "text-secondary": "rgba(130, 130, 130, 1)",
+        "text-tertiary": "rgba(69, 69, 69, 1)",
       },
       borderRadius: {
         lg: "var(--radius)",
