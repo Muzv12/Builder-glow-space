@@ -33,7 +33,7 @@ const Shop = () => {
 
       {/* Hero Section */}
       <section className="max-w-[1440px] mx-auto px-20 py-16">
-        <div className="flex gap-[119px] items-start">
+        <div className="flex gap-[47px] items-start">
           {/* Left Content */}
           <div className="flex w-[624px] flex-col gap-6">
             <h1 className="text-black font-inter text-[64px] font-bold leading-normal tracking-[-1.28px]">
@@ -73,8 +73,8 @@ const Shop = () => {
       </section>
 
       {/* Products Section */}
-      <section className="max-w-[1440px] mx-auto px-20 py-16">
-        <div className="flex gap-8 justify-center flex-wrap">
+      <section className="max-w-[1440px] mx-auto px-20 py-16 flex flex-col">
+        <div className="flex flex-wrap justify-start mr-auto text-center items-center">
           {products.map((product, index) => (
             <ProductCard key={index} {...product} />
           ))}

@@ -27,7 +27,7 @@ const Footer = () => {
           </div>
 
           {/* Right side - Footer links */}
-          <div className="flex gap-[219px]">
+          <div className="flex gap-[125px]">
             <div className="flex w-[187px] flex-col gap-6">
               <h4 className="text-black font-inter text-base font-medium leading-[150%]">
                 Topic
